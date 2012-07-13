@@ -39,7 +39,7 @@ calcStats: function(options) {
 			comp+=1;
 			if (selectedProjects[i].progress != 100) {
 				prog+=1;
-				pro_list+="&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; " + selectedProjects[i].permalink + "<br>";
+				pro_list+="&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; " + selectedProjects[i].name + "<br>";
 			}
 			var ed=new String(selectedProjects[i].completed);
 			var edlist=ed.split("-");
