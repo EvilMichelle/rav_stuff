@@ -1,0 +1,2 @@
+This program walks through all projects of a given person and calculates statistics.
+(ex. counts number of projects meeting criteria, calculates average happiness, average duration (in days) that it takes to complete a project)
